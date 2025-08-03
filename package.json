@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "A blog for me",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Jim Strother",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "juris": "^0.88.2",
+    "nodemon": "^3.1.10"
+  }
 }
